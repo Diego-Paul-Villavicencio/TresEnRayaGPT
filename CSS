@@ -1,0 +1,82 @@
+*{ 
+    margin: 0;
+    }
+    
+    .contenedor-juego {
+      width: 400px;
+      height: 430px;
+      margin: 0 auto;
+      text-align: center;
+      color: white;
+      font-size:65px;
+      font-family:helvetica;
+      padding: 20px;
+      margin-bottom: 5px;
+      border-radius: 15px;
+      background: darkcyan;
+      margin-top: 1px;
+      border: 3px solid silver;
+      box-shadow: 6px 5px darkgray;
+    }
+    
+    .juego-titulo h2 {
+      font-size: 30px;
+      color: white;
+      font-family: helvetica;
+      text-shadow: 1.5px 1.5px black;
+    }
+    
+    .juego-info {
+      font-size: 18px;
+      margin-bottom: 1px;
+      padding: 0px;
+      color: black;
+    }
+    
+    .juego-cuadricula {
+      margin-left: 15px; 
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 30px;
+      grid-gap: 30px;
+    }
+    
+    .cuadro {
+      width: 70px;
+      height: 72px;
+      margin-bottom: 1px;
+      background-color: orange;
+      border: 1.5px solid black;
+      box-shadow: 3px 5px black;
+    }
+    
+    .juego-boton {
+      margin-top: 1px;
+      padding: 8px 15px;
+      background-color: black;
+      font-size: 12px;
+      color: white;
+      text-shadow: 1.5px 1.5px black;
+      cursor: pointer;
+      border: 1.5px solid silver;
+      box-shadow: 2px 2px black;
+    }
+     
+    .juego-titulo h2:hover {
+      color: yellow;
+      cursor: pointer;
+    }
+    
+    .cuadro:hover {
+      color:yellow;
+      background-color: darkred;
+      cursor: pointer;
+      border: 1.5px solid yellow;
+    }
+    
+    .juego-boton:hover {
+      color: yellow;
+      background-color: darkred;
+      cursor: pointer;
+      border: 1.5px solid yellow;
+    }  
